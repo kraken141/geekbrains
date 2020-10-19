@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container header_container">
+        <ul class="nav">
+          <li class="nav_item">
+            <a href="main.html">
+              <img
+                class="icon_logo"
+                src="img/icon/logo.svg"
+                alt=""
+                class="nav_icon"
+              />
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="contacts.html">
+              <img
+                class="icon_contact"
+                src="img/icon/contact.svg"
+                alt=""
+                class="nav_icon"
+              />
+            </a>
+          </li>
+        </ul>
+    </header>
+
+    <div class="contacts_info">
+        <div class="container contacts_container">
+            <h2 class="contacts_info_title">Contact Us</h2>
+            <p class="contacts_info_text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+            </p>
+        </div>
+    </div>
+
+    <section class="message">
+        <div class="container message_container">
+            <div class="message_contacts message_item">
+              <img src="img/contacts/message_img.png" alt="message_img" class="message_img">
+              <div class="message_contacts_item first_item">
+                  <h3 class="message_contacts_header">ADDRESS</h3>
+                  <p class="message_contacts_text">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
+              </div>
+              <div class="message_contacts_item">
+                  <h3 class="message_contacts_header">PHONE</h3>
+                  <p class="message_contacts_text message_phone contacts_matgin_text">+7-812-7313-4321</p>
+                  <p class="message_contacts_text message_phone ">+7-812-7313-4321</p>
+              </div>
+              <div class="message_contacts_item">
+                  <h3 class="message_contacts_header">ONLINE SERVICE</h3>
+                  <p class="message_contacts_text contacts_matgin_text net_icon">www.site.com</p>
+                  <p class="message_contacts_text mail_icon">hello.site@gmail.com</p>
+              </div>
+            </div>
+            <form class="message_form message_item">
+                <h4 class="message_form_header">Send us message</h4>
+                <div class="form_group">
+                    <label class="form_label" for="name">Full name</label>
+                    <input class="input_item" type="text" id="name" placeholder="Иван Иванов" />
+                </div>
+                 <div class="form_group">
+                    <label class="form_label" for="my_email">Email</label>
+                    <input class="input_item" type="email" id="my_email" placeholder="meil22@mail.ru" />
+                </div>
+                <div class="form_group form_group_margin">
+                    <label class="form_label" for="message">Message</label>
+                    <textarea class="input_item textarea" name="" id="message" placeholder="Your Message" cols="30" rows="4"></textarea>
+                </div>
+                <div class="form_action">
+                    <button class="btn" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="map">
+        <div class="container map_container">
+            <iframe
+                src="https://yandex.ua/map-widget/v1/?um=constructor%3A4544bb6b1eb693f54a721a460d9f92201e79e736773ebe4e265fbe6ffb7d16ba&amp;source=constructor"
+                width="500" height="400" frameborder="0">
+            </iframe>
+        </div>
+    </div>
+
+    <footer>
+      <div class="footer_top footer">
+        <div class="container footer_container_top">
+          <div class="contacts_us">
+            <div class="contact_us_item">
+              <h3 class="contact_us_title">Intersted to work with our team?</h3>
+              <p class="contact_us_text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+            </div>
+            <div class="contact_us_item btn_box">
+              <a href="" class="contact_us_btn">Lets talk!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer footer_bottem">
+        <div class="container footer_container_bottem">
+          <ul class="contacts">
+            <li class="contacts_item">
+              <p class="letter">A.</p>
+              <p class="contacts_item_text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </li>
+            <li class="contacts_item">
+              <p class="letter">T.</p>
+              <p class="contacts_item_text">+7-812-7313-4321</p>
+            </li>
+            <li class="contacts_item">
+              <p class="letter">E.</p>
+              <p class="contacts_item_text">hello.site@gmail.com</p>
+            </li>
+          </ul>
+          <div class="copyright">
+            <p class="copyright_text">2020 All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
